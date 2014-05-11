@@ -1,6 +1,6 @@
 Product.delete_all
 Product.create!(title: 'CoffeeScript',
-  description: 
+  decription: 
     %{<p>
         CoffeeScript is JavaScript done right. It provides all of JavaScript's
 	functionality wrapped in a cleaner, more succinct syntax. In the first
@@ -12,7 +12,7 @@ Product.create!(title: 'CoffeeScript',
   price: 36.00)
 # . . .
 Product.create!(title: 'Programming Ruby 1.9 & 2.0',
-  description:
+  decription:
     %{<p>
         Ruby is the fastest growing and most exciting dynamic language
         out there. If you need to get working programs delivered fast,
@@ -23,7 +23,7 @@ Product.create!(title: 'Programming Ruby 1.9 & 2.0',
 # . . .
 
 Product.create!(title: 'Rails Test Prescriptions',
-  description: 
+  decription: 
     %{<p>
         <em>Rails Test Prescriptions</em> is a comprehensive guide to testing
         Rails applications, covering Test-Driven Development from both a
